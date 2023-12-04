@@ -19,7 +19,6 @@ def part1(input):
 
 def part2(input):
     n_cards = [1]*len(input)
-    print(n_cards)
     for i,line in enumerate(input):
         a, b = line.split(':')[1].split('|')
         na, nb = set([int(a[3*i+1:3*i+3]) for i in range(int((len(a)-1)/3))]), set([int(b[3*i+1:3*i+3]) for i in range(int((len(b)-1)/3))])
