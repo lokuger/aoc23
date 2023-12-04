@@ -6,10 +6,10 @@ def main():
     part2(input)
 
 def part1(input):
-    pass
+    print('#### Part 1 ####')
 
 def part2(input):
-    pass
+    print('#### Part 2 ####')
 
 if __name__ == '__main__':
     main()
