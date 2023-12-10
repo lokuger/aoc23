@@ -2,14 +2,14 @@ def main():
     with open('input<i>.txt') as f:
         input = f.readlines()
     
-    part1(input)
-    part2(input)
+    print('Part 1: {}'.format(part1(input)))
+    print('Part 2: {}'.format(part2(input)))
 
 def part1(input):
-    print('#### Part 1 ####')
+    pass
 
 def part2(input):
-    print('#### Part 2 ####')
+    pass
 
 if __name__ == '__main__':
     main()
